@@ -1,0 +1,19 @@
+[
+    {
+        "name": "구운 연어",
+        "ingredients": [
+            { "name": "연어", "amount": 500, "measurement": "그램"},
+            { "name": "잣", "amount": 1, "measurement": "컵"},
+            { "name": "버터", "amount": 0.5, "measurement": "컵"},
+            { "name": "마늘", "amount": 3, "measurement": "그램"}
+        ]
+    },
+    {
+        "name": "생선 타코",
+        "ingredients": [
+            { "name": "흰 생선", "amount": 500, "measurement": "그램"},
+            { "name": "치즈", "amount": 2, "measurement": "컵"},
+            { "name": "토마토", "amount": 2.5, "measurement": "개수"}
+        ]
+    }
+]
