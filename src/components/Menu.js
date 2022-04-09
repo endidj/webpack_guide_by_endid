@@ -10,9 +10,8 @@ function Menu({ recipes }){
     
     return (
         <>
-            <button onClick={changeBool} style={{width:'70px', height:'40px'}}>
-                {bool ? "리액트" : "입니다."}
-            </button>
+            <button onClick={changeBool} style={{width:'70px', height:'40px'}}>버튼</button>
+            <TextForStateTest bool={bool}/>
             <br/>
             <h1>요리 재료</h1>
             <br/>
@@ -26,3 +25,9 @@ function Menu({ recipes }){
 }
 
 export default Menu;
+
+const TextForStateTest = ({bool}) => {
+    return (
+        <>&nbsp;&nbsp;{bool.toString()}</>
+    )
+}
